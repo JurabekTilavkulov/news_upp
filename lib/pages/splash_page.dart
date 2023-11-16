@@ -16,7 +16,7 @@ class _SplashPageState extends State<SplashPage> {
 
   @override
   void initState() {
-   Future.delayed(const Duration(seconds: 2),(){
+   Future.delayed(const Duration(seconds: 4),(){
      Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=>PageViewPage()));
    });
     super.initState();

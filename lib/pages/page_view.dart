@@ -84,7 +84,7 @@ class _PageViewState extends State<PageViewPage> {
                   padding: const EdgeInsets.only(left:10),
                   child: GestureDetector(
                     onTap: (){
-                      pageController.animateToPage(currentPasition+1, duration: Duration(milliseconds: 500), curve:Curves.easeIn);
+                      pageController.animateToPage(currentPasition+1, duration: Duration(milliseconds: 3000), curve:Curves.easeIn);
                       setState(() {
                         if(currentPasition==2) Navigator.push(context, MaterialPageRoute(builder: (context)=>NewsPage()));
                       });
